@@ -33,7 +33,8 @@ else if ((length) < 8 || (length) > 128) {
 }
 options.lengthOfChars = length;
 
-//Validates user to select special characters//
+//Promts user to select for special characters//
+options.specialChars = confirm ("Would you like to include special characters?");
 
 
 return ("password")
