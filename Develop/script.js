@@ -39,7 +39,8 @@ options.specialChars = confirm ("Would you like to include special characters?")
 //Prompts user to select upper-case characters//
 options.upperChars = confirm ("Would you like to include upper-case characters?");
 
-
+//Prompts user to select lower-case characters//
+options.lowerChars = confirm ("Would you like to include lower-case characters?");
 
 //Arrays of characters//
 
