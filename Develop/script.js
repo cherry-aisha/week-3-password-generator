@@ -36,6 +36,13 @@ options.lengthOfChars = length;
 //Promts user to select for special characters//
 options.specialChars = confirm ("Would you like to include special characters?");
 
+//Prompts user to select upper-case characters//
+options.upperChars = confirm ("Would you like to include upper-case characters?");
+
+
+
+//Arrays of characters//
+
 
 return ("password")
 }
