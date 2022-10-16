@@ -15,16 +15,16 @@ function generatePassword() {
 //Options for Password//
   var options = {
     lengthOfChars : 0,
-    speacialChars : false,
+    specialChars : false,
     upperChars : false,
     lowerChars : false,
     numberChars : false,
   }
 
-//Prompts user to enter length
+//Prompts user to enter length//
 var length = window.prompt("Enter required length of password between 8-128 characters")
 
-// Validates input for length of password
+// Validates input for length of password//
 if (isNaN(length)) {
   window.alert ("Invalid length. Please retry using a number between 8-128")
 }
@@ -32,6 +32,10 @@ else if ((length) < 8 || (length) > 128) {
   window.alert ("Invalid length. Please retry using a number between 8-128") 
 }
 options.lengthOfChars = length;
+
+//Validates user to select special characters//
+
+
 return ("password")
 }
 
