@@ -11,9 +11,16 @@ function writePassword() {
 }
 
 // Generate password function//
-function generatePassword()
-{
-  return("password")
+function generatePassword() {
+  //Options for Password//
+  var options = {
+    lengthOfChars : 0,
+    speacialChars : false,
+    upperChars : false,
+    lowerChars : false,
+    numberChars : false,
+  }
+
 }
 
 
