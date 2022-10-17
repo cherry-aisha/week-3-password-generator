@@ -42,7 +42,7 @@ User can opt in/out of including uppercase, lowercase, numbers and special chara
 
 The password is generated according to user criteria! Watch the video below for a preview:
 
-![Watch the Demo] !(./Assets/Demo.gif)
+![Watch the Demo] !(https://raw.githubusercontent.com/cherry-aisha/week-3-password-generator/34ac8849d5a5cb0fd93dc72ffa6ea8a8174cc4ce/Assets/Demo.gif)
 
 #### Visit the page
 Link to ![GithubRepo](https://github.com/cherry-aisha/week-3-password-generator)
