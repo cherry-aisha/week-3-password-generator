@@ -61,14 +61,15 @@ if (lowerChars) {
 }
 
 if (numberChars) {
-  chars.push ([0, 1, 2, 3, 4, 5, 6, 7, 8 ,9])
+  chars.push (["0", "1", "2", "3", "4", "5", "6", "7", "8" ,"9"])
 }
 
-
-return ("password")
+//Adds password with 
+var password = ""
+for (var i=0 <length; i++;) {
+  password =+ [(Math.random()*length.chars)];
 }
-
-
-
+  return (password)
+}
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
