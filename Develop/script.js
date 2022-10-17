@@ -34,33 +34,33 @@ else if ((length) < 8 || (length) > 128) {
 options.lengthOfChars = length;
 
 //Promts user to select for characters//
-options.specialChars = confirm ("Would you like to include special characters?");
+var specialChars = confirm ("Would you like to include special characters?");
 
 //Prompts user to select upper-case characters//
-options.upperChars = confirm ("Would you like to include upper-case characters?");
+var upperChars = confirm ("Would you like to include upper-case characters?");
 
 //Prompts user to select lower-case characters//
-options.lowerChars = confirm ("Would you like to include lower-case characters?");
+var lowerChars = confirm ("Would you like to include lower-case characters?");
 
 //Prompts user to select number characters//
-options.numberChars = confirm ("Would you like to include numbers?");
+var numberChars = confirm ("Would you like to include numbers?");
 
 //Arrays of characters//
 var chars = [];
 
-if (options.specialChars) {
+if (specialChars) {
   chars.push (["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "{", "}", "[", "]", ":", ";", "'", "|", ",", ".", "?", "\/", "\\", "?"])
 }
 
-if (options.upperChars) {
+if (upperChars) {
   chars.push (["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"])
 }
 
-if (options.loweChars) {
+if (lowerChars) {
   chars.push (["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"])
 }
 
-if (options.numberChars) {
+if (numberChars) {
   chars.push ([0, 1, 2, 3, 4, 5, 6, 7, 8 ,9])
 }
 
